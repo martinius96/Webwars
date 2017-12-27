@@ -1,3 +1,9 @@
+<!--Autor: Martin Chlebovec alias: martinius96-->
+<!--Support: https://www.paypal.me/Chlebovec-->
+<!--Web: https://arduino.php5.sk-->
+<!--Email: martinius96@gmail.com-->
+<!--FB: 100001242570317-->
+<!--LICENSE!-->
 <!DOCTYPE html>
 <?php  
  include("./global/functions.php");
