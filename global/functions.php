@@ -1,15 +1,15 @@
 
 
  <?php
-$con = mysqli_connect("localhost","skarduino","arduino","skarduino");
+$con = mysqli_connect("kde","meno","heslo","databaza");
      mysqli_set_charset($con,"utf8");
                              
 if (mysqli_connect_errno())
   {
-  echo "Problém s napojením na MySQL: " . mysqli_connect_error();
+  echo "Problé§‘ s napojenåŒ‡ na MySQL: " . mysqli_connect_error();
   }
   
- $front_salt=("öûõü³¿ñæêœàáäåèéìíïòóôøùúšž¾ýÀÁÄÅÈÉÌÍÏÒÓÔØÙÚŠŽ¼ÝÄ"); 
+ $front_salt=("î”¢î‘§ï½³ï½¿î…¡é¾•ç®è’ŸéŸœï¿½ï¿½î‹§îš˜åŸ‡æ’¼ï½¾ï¾€ï¾ï¾„ï¾…ï¾ˆï¾‰ï¾Œï¾ï¾ï¾’ï¾“ï¾”ï¾˜ï¾™ï¾šè½„æ¹¿ï¾ï¾„"); 
   
   
    $back_salt=("MIIJJgIBAAKCAgBa/C+dTiIwgi7sh1r624vNoZN3XVRFLJDwbypMMubVV6Qa0QrR
