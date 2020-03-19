@@ -35,7 +35,6 @@ $lang['PANZERSTELLUNG']  = "PanzerTurm" ;
 $lang['MENU_POST.PHP'] = '<li><a href="main.php" class="">Headquarters</a></li>
 <li><a href="factory.php" class="">Factory</a></li>
 <li><a href="barracks.php" class="">Baracks</a></li>
-<li><a href="globalmap.php" class="">Global map</a></li>
 <li><a href="production.php" class="">Production</a></li>
 <li><a href="operations.php" class="">Operations</a></li>
 <li><a href="mayors.php" >Mayors</a></li>
