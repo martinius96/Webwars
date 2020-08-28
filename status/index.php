@@ -77,7 +77,7 @@ ul.topnav li.right {float: right;}
         } 
         //Check that the server value is not empty 
         if(empty($server)){ 
-            $server='http://lfs-league.php5.sk'; 
+            $server='localhost'; 
         } 
         //Connection 
         $fp=@fsockopen($server, $port, $errno, $errstr, 1); 
@@ -94,10 +94,9 @@ ul.topnav li.right {float: right;}
     } 
 //Ports and Services to check 
 $services=array( 
-    $lang['WEB_SERVER'] => array('lfs-league.php5.sk' => 80), 
-    $lang['DATABASE_SERVER'] => array('localhost' => 3306),  
-    $lang['INTERNET_CONNECTION_443'] => array('google.com' => 443),
-    $lang['INTERNET_CONNECTION_80'] => array('google.com' => 80) 
+    $lang['DATABASE_SERVER'] => array('localhost' => 3306),  //'sql.example.com'
+    $lang['INTERNET_CONNECTION_443'] => array($_SERVER['SERVER_NAME'] => 443),
+    $lang['INTERNET_CONNECTION_80'] => array($_SERVER['SERVER_NAME'] => 80) 
 ); 
 ?> 
 
