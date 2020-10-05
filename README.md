@@ -1,5 +1,8 @@
 # Webwars
 
+# Support for more free examples and codes (AND FOR ADD NEW FEATURES TO GAME):
+* **PayPal**: https://paypal.me/chlebovec
+
 **Game info:**
 * Webwars is a browser game based on PHP technology using procedural code, the way the game resembles Travian, although it does not have many interactive elements.
 * The game was created during programming attempts
